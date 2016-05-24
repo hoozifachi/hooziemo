@@ -1,3 +1,3 @@
-# foobar
+# hooziemo
 
 a [Sails](http://sailsjs.org) application
