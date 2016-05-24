@@ -65,6 +65,11 @@ module.exports.connections = {
     // database: 'your_mongo_db_name_here' //optional
   },
 
+  mlabMongoDb: {
+    adapter: 'sails-mongo',
+    url: process.env.MONGOLAB_URI
+  },
+
   /***************************************************************************
   *                                                                          *
   * PostgreSQL is another officially supported relational database.          *
